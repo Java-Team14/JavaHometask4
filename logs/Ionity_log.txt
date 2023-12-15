@@ -1,0 +1,4 @@
+Dec 15, 2023 2:58:08 AM Home_Assignment4.Capstone ChargeCar
+INFO: Charging completed at Fri Dec 15 02:58:08 CET 2023 for station Ionity with energy source Diesel
+Dec 15, 2023 4:31:36 AM Home_Assignment4.Capstone ChargeCar
+INFO: Charging completed at Fri Dec 15 04:31:36 CET 2023 for station Ionity with energy source Diesel
