@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class CapstoneTest {
 	
-	@Test
+    @Test
     void testSystemLoggerInitialization() {
         assertTrue(Files.exists(Paths.get("logs" + File.separator + "system_log.txt")));
     }
@@ -53,21 +53,21 @@ public class CapstoneTest {
     }
 
 	
-	@Test 
-	void testOpeningSystemLogFile() { 
-		provideInput("system\n");
-		System.setOut(new PrintStream(new ByteArrayOutputStream()));
+    @Test 
+    void testOpeningSystemLogFile() { 
+	provideInput("system\n");
+	System.setOut(new PrintStream(new ByteArrayOutputStream()));
 	  
-		ByteArrayOutputStream fileOutput = new ByteArrayOutputStream();
-		System.setOut(new PrintStream(fileOutput));
+	ByteArrayOutputStream fileOutput = new ByteArrayOutputStream();
+	System.setOut(new PrintStream(fileOutput));
 	  
-		Capstone.openSystemLogFile();
+	Capstone.openSystemLogFile();
 	  
-		String fileContent = fileOutput.toString();
-		assertTrue(fileContent.contains("Welcome to the Car Charging Simulator."));
-		assertTrue(fileContent.contains("Selected charging station: Ionity")); 
+	String fileContent = fileOutput.toString();
+	assertTrue(fileContent.contains("Welcome to the Car Charging Simulator."));
+	assertTrue(fileContent.contains("Selected charging station: Ionity")); 
 		
-	}
+    }
 
     private void provideInput(String data) {
         System.setIn(new ByteArrayInputStream(data.getBytes()));
