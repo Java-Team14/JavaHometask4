@@ -1,9 +1,8 @@
-Java Hometask 4 - Regular Expressions
+# Java Hometask4 - Regular Expressions - Team 14
 
-Below mentioned are the topics covered by each team member :
-
-Madhukar Devendrappa : TOPIC - Add logs files for each day for each charging station, for each energy source and for all system as whole.
-
-Nitika Deswal : TOPIC - Give user the possibility to open the requested log file of the whole system.
-
-Anjali Khanduri : TOPIC - Give user the possibility to open the requested log file based on the name of the station.
+## Authors
+| | Author  | Matriculation Number | Course | Contribution |
+| - | ---------- | -------------------- | ------ | ---------------- |
+| 1 | Anjali Khanduri | 7219034 | MDT | Give user the possibility to open the requested log file based on the name of the station |
+| 2 | Nitika Deswal | 7218799 | MDT | Give user the possibility to open the requested log file of the whole system |
+| 3 | Madhukar Devendrappa  | 7219639 | ESE | Add logs files for each day for each charging station, for each energy source and for all system as whole |
